@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 // Proteksi: hanya admin yang sudah login
 // if (!isset($_SESSION['admin_id'])) {
 //     header("Location: ../login/login.php");
